@@ -27,7 +27,7 @@ namespace PrimeServiceTests
         {
             var result = PrimeService.IsPrime(value);
 
-            Assert.True(result, $"{value} should be prime");
+            Assert.True(result, $"{value} should be prime"); 
         }
 
         [Theory]
